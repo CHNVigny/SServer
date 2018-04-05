@@ -8,7 +8,7 @@
 
 struct headers
 {
-    char version[HDR_VERSION_SZ];//版本号为10个字节
+    //char version[HDR_VERSION_SZ];//版本号为10个字节
     char method[HDR_METHOD_SZ];//访问方式为5个字节，包括get，post，put等
     char uri[HDR_URI_SZ];//访问链接，即http：www.baidu.com/abcdefg，/后的那些数据
 };
